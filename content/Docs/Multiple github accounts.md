@@ -124,10 +124,13 @@ git clone git@github.com-user1:AccountName/pathtoproject.git
 git clone git@github.com-user2:AccountName/pathtoproject.git
 ```
 
-**Tip:** Check your remote configuration using:
-```bash
-git remote -v
-```
+
+> [!tip]
+> Check your remote configuration using:
+> ```bash
+> git remote -v
+> ```
+
 
 ### 8. Configure Git User Settings by Directory
 
@@ -165,10 +168,14 @@ Add the following to `~/.gitconfig-work`:
     email = user2@email.com
 ```
 
-**Note:** You can verify your current Git configuration by running:
-```bash
-git config --list
-```
+
+> [!tip]
+> You can verify your current Git configuration by running:
+> ```bash
+> git config --list
+> ```
+
+
 
 This command displays both global and local Git configurations. Local configurations can be found in `.git/config` within each repository.
 
